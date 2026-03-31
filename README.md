@@ -15,6 +15,8 @@ Whenever a CSV file is uploaded to Amazon S3, the system:
 - Sends a notification email  
 
 ---
+## 🎥 Project Demo
+https://youtu.be/wqnvo4gqjr0
 
 ## 🏗️ Architecture
 
@@ -98,4 +100,4 @@ order_id,order_date,product,category,region,quantity,price
 2,2026-03-02,Mouse,Electronics,West,2,25
 3,2026-03-05,Chair,Furniture,South,1,120
 
-![Uploading image.png…]()
+
