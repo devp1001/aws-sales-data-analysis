@@ -1,0 +1,6 @@
+order_id,order_date,product,category,region,quantity,price
+1,2026-03-01,Laptop,Electronics,East,1,800
+2,2026-03-02,Mouse,Electronics,West,2,25
+3,2026-03-05,Chair,Furniture,South,1,120
+4,2026-03-08,Keyboard,Electronics,East,1,45
+5,2026-03-10,Laptop,Electronics,North,1,800
