@@ -17,6 +17,9 @@ Whenever a CSV file is uploaded to Amazon S3, the system:
 ---
 
 ## 🏗️ Architecture
+
+<img width="1184" height="592" alt="image" src="https://github.com/user-attachments/assets/fe6e8e95-1490-4bc0-8070-7642abb6fd82" />
+
 User Upload → S3 (input/)
 ↓
 AWS Lambda Trigger
@@ -27,6 +30,18 @@ S3 (output/) JSON Report
 ↓
 SNS Email Notification
 
+## 🧩 Architecture Explanation
+
+This project follows a fully event-driven serverless architecture:
+
+- **Source Layer**: Users upload sales CSV files containing transactional data.
+- **Ingestion Layer**: Amazon S3 receives the file and triggers an event notification.
+- **Processing Layer**: AWS Lambda processes the data using Python (pandas), computes KPIs, and performs weekly analysis.
+- **Storage Layer**: Processed results are stored in S3 as structured JSON reports.
+- **Notification Layer**: Amazon SNS sends email notifications with key insights.
+- **Monitoring Layer**: Amazon CloudWatch captures logs and metrics for debugging and observability.
+
+This design ensures scalability, automation, and cost-efficiency without managing servers.
 
 ---
 
