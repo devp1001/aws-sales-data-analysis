@@ -77,10 +77,10 @@ The Lambda function performs:
 
 ## 📂 Project Structure
 aws-sales-data-analysis/
-├── lambda_function.py
-├── README.md
-├── sample-data/
-│ └── sales.csv
+-├── lambda_function.py
+-├── README.md
+-├── sample-data/
+-│ └── sales.csv
 
 <img width="1362" height="435" alt="image" src="https://github.com/user-attachments/assets/28542222-32ce-4fd9-9d70-303783dc7e5a" />
 <img width="884" height="521" alt="image" src="https://github.com/user-attachments/assets/f829d593-8647-4582-b4eb-0dcf10122b3d" />
